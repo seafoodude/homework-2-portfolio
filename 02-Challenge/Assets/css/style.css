@@ -1,21 +1,53 @@
 :root {
-
+    --wht: white;
+    --bkgrdclr: rgb(60, 0, 109);
 }
 
 body {
-
-}
-
-h1 {
-
+    background-color: var(--bkgrdclr);
 }
 
 header {
 
 }
 
+nav {
+    display: block;
+    transform: translate(-100px, 100px);
+    text-align: right;
+}
 
+ul {
+    font-size: 50px;
+    color: var(--wht);
+    text-decoration: none;
+}
 
+li {
+    margin-bottom: 20px;
+}
+
+div {
+    display: block;
+    transform: translate(50px, -100px);
+    width: 500px;
+}
+
+h1 {
+    font-size: 100px;
+    color: var(--wht);
+
+}
+
+mark {
+    color: blue;
+    background-color: var(--bkgrdclr);
+}
+
+content {
+    display: block;
+    transform: translate(50px, 100px);
+}
 
 @media screen and (max-width: 768px) {
     main,
