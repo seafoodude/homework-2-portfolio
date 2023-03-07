@@ -1,0 +1,25 @@
+:root {
+
+}
+
+body {
+
+}
+
+h1 {
+
+}
+
+header {
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+    flex-direction: column;
+    }
+}

@@ -2,7 +2,7 @@
 
 ## Description
 
-This Homework 1 was created for boot camp students who were going through Module 01. It contains a webpage with a relatively functional navigation bar.
+This Homework 2 Portfolio was created for boot camp students who were going through Module 02. It contains a webpage with a relatively functional navigation bar.
 
 My motivation came from my desire to learn HTML and CSS in the efforts to build a webpage.
 I refactored this webpage to show that I have learned and absorbed the information given to me through the Module 01 requirement from the UCLA coding bootcamp.
@@ -27,9 +27,9 @@ To use this Homework 1, you can click on buttons in the navigation bar to take y
 **NOTE**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually we'll learn how to make elements responsive so that our web application is optimized for any screen size.
 
 **SCREENSHOTS**
-![Screenshot of NavBar](/assets/images/ScreenshotNavBar.PNG)
-![Screenshot of Content](/assets/images/ScreenshotContent2.PNG)
-![Screenshot of Footer](/assets/images/ScreenshotFooter.PNG)
+![Screenshot of NavBar]()
+![Screenshot of Content]()
+![Screenshot of Footer]()
 
 ## Credits
 
