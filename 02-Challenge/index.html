@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Michael Huang's Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="/02-Challenge/Assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/02-Challenge/Assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="/02-Challenge/Assets/css/style.css" />
 </head>
 
 <body>
-    <header>
+    <header id="home">
+        <div class="hello">
+            <h1>
+                Hello,<br />I'm <span>Mike</span>,<br />Full Stack<br />Developer
+            </h1>
+        </div>
+        <img src="/02-Challenge/Assets/imgs/in_frunk.jpg" alt="Mike in da frunk" class="infrunk" />
         <nav>
             <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#">My Projects</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-
-        <div>
-            <h1>Hello, 
-            <h1>I'm <mark>Mike</mark>,</h1>
-            <h1>Full Stack Developer</h1>
-                <p>
-                    
-                </p>
-        </div>
     </header>
 
     <content>
-        <section id="about-me">
-            <h2>About Me</h2>
-
-
-
+        <section id="about" class="infocard">
+            <div class="mari">
+                <h2 class="align-left">About</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+                    dicta iusto autem sunt pariatur repudiandae nesciunt nostrum
+                    dolorem, quam quia quasi velit molestias, cum voluptate. Quibusdam
+                    exercitationem laborum nemo laudantium!
+                </p>
+            </div>
         </section>
-
-
+        <section id="projects" class="infocard">
+            <div class="mari">
+                <h2 class="align-right">Projects</h2>
+                <img src="Assets/imgs/ScreenshotNavBar.PNG" alt="digital marketing meeting" class="digipic"/>
+            </div>
+        </section>
+        <section id="contact" class="infocard">
+            <div class="mari">
+                <h2 class="align-left">Contact</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores illo, fugiat saepe animi ipsa suscipit nemo cum laudantium est eos voluptatibus tenetur aliquam, sit laborum cumque inventore accusantium quasi ab!</p>
+            </div>
+        </section>
     </content>
-
-
+    <footer>
+        <h3 class="foot">© Huang Productions 2023</h3>
+    </footer>
 </body>
-
-
-
 </html>
