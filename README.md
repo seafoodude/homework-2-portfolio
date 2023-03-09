@@ -30,7 +30,7 @@ To use this Homework 2 Portfolio, you can click on buttons in the navigation bar
 ![Screenshot of Portfolio](./assets/imgs/ScreenshotPortfolio.PNG)
 ![Screenshot of About](./assets/imgs/SSabout.PNG)
 ![Screenshot of Projects](./assets/imgs/SSprojects.PNG)
-![Screenshot of Contact](./Assets/imgs/SScontact.PNG)
+![Screenshot of Contact](./assets/imgs/SScontact.PNG)
 
 
 ## Credits
