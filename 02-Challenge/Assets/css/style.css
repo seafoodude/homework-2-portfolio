@@ -36,7 +36,7 @@ nav {
     width: 10vw;
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;    
@@ -45,12 +45,12 @@ ul {
     overflow: hidden;
 }
 
-li {
+nav li {
     margin: 6vh 0;
 
 }
 
-li a:hover {
+nav li a:hover {
     color: var(--wht);
     background-color: var(--bkgrdclr);
     transition: all 0.5s ease;
@@ -76,7 +76,18 @@ h1 {
 
 }
 
-span {
+h2 {
+    color: var(--bkgrdclr);
+    font-size: 50px;
+}
+
+h4 {
+    color: var(--wht);
+    font-size: 15px;
+    text-align: center;
+}
+
+.name {
     color: var(--blu);
 }
 
@@ -101,7 +112,7 @@ content {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: auto;
 }
 
@@ -110,12 +121,6 @@ content {
     height: 50vh;
     width: 50vw;
     transform: translate(-10vw, 0);
-}
-
-h2 {
-    color: var(--bkgrdclr);
-    font-size: 50px;
-    margin-bottom: 5vh;
 }
 
 .align-right {
@@ -130,27 +135,49 @@ h2 {
 p {
     color: var(--wht);
     font-size: 25px;
-    text-align: center;
-}
-
-.smolheart {
-    width: 40vh;
-    border-radius: 50%;
+    text-align: left;
+    padding: 5vh;
 }
 
 .digipic {
     display: flex;
     height: 25vh;
-    width: 25vw;
+    width: 50vw;
     border-radius: 2%;
     color: var(--bkgrdclr);
 }
 
+.placeholder-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.size-change {
+    width: 50%;
+}
+
+.placeholder {
+    height: 10vh;
+    width: 17vw;
+    
+}
+
 .digipic:hover {
-    transform: translate(0vw, -0.5vh);
+    transform: translate(0vw, -0.7vh);
     transition: all 0.5s ease;
 }
 
+.icon {
+    font-size: 3vh;
+    
+}
+
+
+pre {
+    color: var(--wht);
+    font-size: 25px;
+    margin-top: 8vh;
+}
 
 #home, #projects {
     height: 100vh;
@@ -164,6 +191,10 @@ p {
     width: 100vw;
     background: rgb(108,0,255);
     background: linear-gradient(180deg, rgba(242,223,187,1) 0%, rgba(45,205,223,1)50%, rgba(60,121,245,1) 75%,  rgba(108,0,255,1) 100%);
+}
+
+footer {
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {  
@@ -196,36 +227,11 @@ p {
         border-radius: 2%;
         color: var(--bkgrdclr);
     }
+    p {
+        font-size: 20px;
+        padding-top: 2vh;
+    }
+    pre {
+        font-size: 1.7vh;
+    }
 }
-
-
-
-
-
-
-
-
-    /*
-    
-    h1 {
-        font-size: 100px;
-        color: var(--wht);
-    
-    }
-    
-    span {
-        color: var(--blu);
-    }
-
-    nav {
-        position: relative;        
-        align-items: flex-start;
-        position: relative;
-        top: 0;
-        right: 0;
-        margin: 0;
-        background-color: var(--blu);
-        height: 2vh;
-        width: 100vw;
-    }
-} */
