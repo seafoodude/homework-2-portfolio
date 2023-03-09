@@ -27,10 +27,10 @@ To use this Homework 2 Portfolio, you can click on buttons in the navigation bar
 **NOTE**: This webpage is meant for desktop viewing. It does shrink at the 768px mark, but it looks terrible. It is only meant to be functional.
 
 **SCREENSHOTS**
-![Screenshot of Portfolio](/02-Challenge/Assets/imgs/ScreenshotPortfolio.PNG)
-![Screenshot of About](/02-Challenge/Assets/imgs/SSabout.PNG)
-![Screenshot of Projects](/02-Challenge/Assets/imgs/SSprojects.PNG)
-![Screenshot of Contact](/02-Challenge/Assets/imgs/SScontact.PNG)
+![Screenshot of Portfolio](./Assets/imgs/ScreenshotPortfolio.PNG)
+![Screenshot of About](./Assets/imgs/SSabout.PNG)
+![Screenshot of Projects](./Assets/imgs/SSprojects.PNG)
+![Screenshot of Contact](./Assets/imgs/SScontact.PNG)
 
 
 ## Credits
