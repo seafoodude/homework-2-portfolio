@@ -1,5 +1,7 @@
 # Homework 2 Portfolio
 
+https://seafoodude.github.io/homework-2-portfolio/
+
 ## Description
 
 This Homework 2 Portfolio was created for boot camp students who were going through Module 02. It contains a portfolio webpage with personal info and previous projects.
